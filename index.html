@@ -1,0 +1,19 @@
+﻿<html>
+<head>
+    <title>
+        Fecha y hora
+    </title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\PC\source\repos\css\segoepre.css" />
+</head>
+<body>
+    <h1>
+        <script type="text/javascript">
+            var fecha;
+            fecha = new Date();
+            document.write(fecha.getHours() + ":" + fecha.getMinutes() + ":" + fecha.getSeconds() + ":" + fecha.getMilliseconds(), '<br>');
+            document.write(fecha.getDay() + "/" + fecha.getMonth() + "/" + fecha.getFullYear(), '<br>');
+            setTimeout(() => { location.reload(); }, 10);
+        </script>
+    </h1>
+</body>
+</html>
